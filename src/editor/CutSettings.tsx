@@ -49,7 +49,7 @@ export default function CutSettings(props: CutSettingsProps) {
         isChecked={maxPower}
         isDisabled={maxPower}
         label="Power * (0 - 100)"
-        max="100"
+        max="101"
         min="0"
         onBlur={props.saveTemporaryState}
         onChange={(event) => props.updateCut('power', toRealPower(asInteger(event.target.value))) }

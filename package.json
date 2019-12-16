@@ -1,6 +1,6 @@
 {
   "name": "glowforge-material-editor",
-  "version": "0.4.10",
+  "version": "0.4.11",
   "private": true,
   "dependencies": {
     "@types/chrome": "^0.0.83",

@@ -71,8 +71,8 @@ export default function VectorEngraveSetting(props: VectorEngraveSettingProps) {
         validate={validationHandler}
       />
       <InputNumber
-        label="Speed * (100 - 1000)"
-        max="1000"
+        label="Speed * (100 - 1400)"
+        max="1400"
         min="100"
         onBlur={saveTemporaryState}
         onChange={(event) => {
@@ -87,7 +87,7 @@ export default function VectorEngraveSetting(props: VectorEngraveSettingProps) {
         isChecked={maxPower}
         isDisabled={maxPower}
         label="Power * (0 - 100)"
-        max="100"
+        max="101"
         min="0"
         onBlur={saveTemporaryState}
         onChange={(event) => updateVectorEngrave(index, 'power', toRealPower(asInteger(event.target.value)))}

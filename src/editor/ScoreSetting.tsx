@@ -86,7 +86,7 @@ export default function ScoreSetting(props: ScoreSettingProps) {
         isChecked={maxPower}
         isDisabled={maxPower}
         label="Power * (0 - 100)"
-        max="100"
+        max="101"
         min="0"
         onBlur={saveTemporaryState}
         onChange={(event) => {
